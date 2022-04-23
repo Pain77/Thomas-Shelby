@@ -1,8 +1,8 @@
 <div align="center">
-<a href="https://ibb.co/wQ4GK21"><img src="https://c.tenor.com/-ZkmeCMtldEAAAAC/thomas-shelby.gif" alt="whatsapp-botto-void-init" border="0"></a>
+<a href="https://ibb.co/wQ4GK21"><img src="https://c.tenor.com/-ZkmeCMtldEAAAAC/thomas-shelby.gif" alt="whatsapp-botto-void-init" border="0"></a> 
 <p align="center">
   <a href="/">
-    <img title="TENGENUZUI" src="https://img.shields.io/badge/-TENGEN UZUI-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge">
+    <img title="THOMASSHELBY" src="https://img.shields.io/badge/-THOMAS SHELBY-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge">
   </a>
 </p>
 <p align="center">
@@ -27,7 +27,7 @@
   
 A Fully Modular and Efficient Bot <br>
   
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Pain77/Tengen-Uzui)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Pain77/Thomas-Shelby)
 
 
 
@@ -37,7 +37,7 @@ A Fully Modular and Efficient Bot <br>
 ## Clone this project
 
 ```cmd
-> git clone https://github.com/Pain77/Tengen-Uzui
+> git clone https://github.com/Pain77/Thomas-Shelby
 ```
 
 ## Install the dependencies
