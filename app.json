@@ -1,18 +1,19 @@
 {
-  "name": "kacchan-0.2",
+  "name": "Thomas-Shelby",
   "description": "A WhatsApp Bot With Rich Anime Features.",
   "keywords": [
       "bot",
       "whatsapp",
       "stickers",
       "whatsapp-stickers",
-      "anime",
+      "peaky-blinders",
+      "thomas-shelby"
       "whatsapp-bot",
       "whatsapp-sticker-bot",
       "whatsapp-botto"
   ],
-  "repository": "https://github.com/well300/kacchan-0.2.git",
-  "logo": "https://i.pinimg.com/originals/ed/92/51/ed92517bc5c4f28eb21bab0202c3e264.jpg",
+  "repository": "https://github.com/Pain77/Thomas-Shelby.git",
+  "logo": "https://pin.it/2dStZer",
   "success_url": "/",
    "env": {
         "PREFIX": {
