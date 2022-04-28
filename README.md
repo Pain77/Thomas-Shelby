@@ -11,7 +11,7 @@
   </a>
 </p>
   
-> Tengen Uzui made using adiwajshing/Baileys library  
+> Thomas Shelby made using adiwajshing/Baileys library  
  <p>
   <img src ="https://img.shields.io/badge/npm-v8.1.3-green" />
   <img src="https://img.shields.io/badge/node-v3.0.0-green" />
