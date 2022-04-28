@@ -174,7 +174,7 @@ and more...
   <a href="https://wa.me/919662713165"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
-## SPECIAL THANKS TO :
+## Special Thanks To :
 * [`Baileys`](https://github.com/adiwajshing/Baileys)
 * [`Shinei Ichijo`](https://github.com/ShineiIchijo)
 * [`JJ`](https://github.com/Oreki-san)
