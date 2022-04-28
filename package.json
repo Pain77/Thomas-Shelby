@@ -1,5 +1,5 @@
 {
-    "name": "rin",
+    "name": "Thomas-Shelby",
     "version": "3.0.0",
     "description": "A WhatsApp Bot With Rich Anime Features.",
     "main": "dist/void.js",
@@ -18,14 +18,15 @@
         "bot",
         "typescript",
         "whatsapp",
-        "chitoge"
+        "thomas-shelby",
+        "peaky-blinders"
     ],
-    "author": "Synthesized Infinity & OREKI-SAN",
+    "author": "Synthesized Infinity & ░P░A░I░N░",
     "license": "AGPL-3.0",
     "bugs": {
-        "url": "https://github.com/ShineiIchijo/Chitoge/issues"
+        "url": "https://github.com/Pain77/Thomas-Shelby/issues"
     },
-    "homepage": "https://github.com/Oreki-san/RIN#readme",
+    "homepage": "https://github.com/Pain77/Thomas-Shelby#readme",
     "devDependencies": {
         "@types/express": "^4.17.12",
         "@types/fs-extra": "^9.0.11",
