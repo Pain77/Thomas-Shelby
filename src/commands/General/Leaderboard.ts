@@ -103,7 +103,7 @@ export default class Command extends BaseCommand {
     }
     return void M.reply(
       await this.client.getBuffer(
-        ""
+        "https://64.media.tumblr.com/b19170c153ec728ddebb11742bc87753/646d5e5390c10808-f0/s640x960/dd7d930d6d893502f72c9c429738baf8b4a6e381.jpg"
       ),
       MessageType.image,
       undefined,
