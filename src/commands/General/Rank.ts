@@ -34,7 +34,7 @@ export default class Command extends BaseCommand {
 		} catch (err) {
 			M.reply(`Profile Picture not Accessible of ${username}`);
 			pfp =
-				"https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg";
+				"https://pbs.twimg.com/profile_images/1196334767655936000/OWrdsx83_400x400.jpg";
 		}
 		const exp = (await this.client.getUser(user)).Xp;
 		let role: string;
