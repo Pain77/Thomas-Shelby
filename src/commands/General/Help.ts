@@ -21,7 +21,7 @@ export default class Command extends BaseCommand {
     parsedArgs: IParsedArgs
   ): Promise<void> => {
     const user = M.sender.jid;
-    const chitoge =
+    const shelby =
       "https://media.tenor.com/videos/571d88ea5d66e7b95cdbc4ef6029dd95/mp4";
     if (!parsedArgs.joined) {
       const commands = this.handler.commands.keys();
@@ -43,9 +43,9 @@ export default class Command extends BaseCommand {
           categories[info.config.category].push(info);
         }
       }
-      let text = `👋🏻 (💙ω💙) Konichiwa! *@${
+      let text = `👋🏻 Hey There! *@${
         user.split("@")[0]
-      }*, I'm Chitoge.\n\nMy prefix is - "${
+      }*, I'm Thomas Shelby.\n\nMy prefix is - "${
         this.client.config.prefix
       }"\n\nThe usable commands are listed below.\n\n`;
       const keys = Object.keys(categories);
@@ -57,7 +57,7 @@ export default class Command extends BaseCommand {
           .join(", ")}\`\`\`\n\n`;
       return void this.client.sendMessage(
         M.from,
-        { url: chitoge },
+        { url: shelby },
         MessageType.video,
         {
           quoted: M.WAMessage,
