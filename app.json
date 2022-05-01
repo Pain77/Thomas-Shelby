@@ -1,72 +1,68 @@
 {
   "name": "Thomas-Shelby",
-  "description": "A WhatsApp Bot With Rich Anime Features.",
+  "description": "A WhatsApp Bot With Rich Anime Features. ",
   "keywords": [
-      "bot",
-      "whatsapp",
-      "stickers",
-      "whatsapp-stickers",
-      "peaky-blinders",
-      "thomas-shelby"
-      "whatsapp-bot",
-      "whatsapp-sticker-bot",
-      "whatsapp-botto"
+         "bot",
+         "whatsapp",
+         "stickers",
+         "whatsapp-stickers",
+         "peaky-blinders",
+         "thomas-shelby"
+         "whatsapp-bot",
+         "whatsapp-sticker-bot",
+         "whatsapp-botto"
   ],
+  "website": "https://github.com/Pain77/Thomas-Shelby#readme",
   "repository": "https://github.com/Pain77/Thomas-Shelby.git",
   "logo": "https://64.media.tumblr.com/a16f79099f61ebc6891fc11f41e22338/7cf6c2ac658d73b4-c0/s1280x1920/7cdac281fa20ef21b61bf311a2a1763a0a179ed2.jpg",
   "success_url": "/",
-   "env": {
-        "PREFIX": {
-            "description": "Prefix of your bot",
-            "value": "!"
-        },
-        "SESSION": {
-            "description": "A string for the session to be classified and to get access to the server endpoints"
-        },
-        "MODS": {
-            "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-            "required": false,
-          "value": "919662713165"    
-        },
-        "CRON": {
-            "description": "Cron string to clear chats in a cycle",
-            "required": false,
-           "value": "null"
-        },
-        "MONGO_URI": {
-            "description": "A secret String for Mongodb Connection.(Required)"
-        },
-        "GOOGLE_API_KEY": {
-            "description": "Google API key for Google searches (Not Required)",
-            "required": false
-        },
-        "CHAT_BOT_URL": {
-            "description": "BrainShop API Brain url",
-            "required": false,
-            "value": "http://api.brainshop.ai/get?bid=158484&key=AF9RvRrK14AhY46N&uid=[uid]&msg=[msg]"
-        },
-        "TENOR_API_KEY": {
-            "description": "A key used for gif searches",
-            "required": false,
-            "value": "364OVX2CWH8U"
-        },
-        "WEATHER_APPID": {
-            "description": "A key used to see the weather updates",
-            "required": false
-        }
+  "env": {
+    "PREFIX": {
+      "description": "Prefix of your bot"
     },
-    "buildpacks": [
-        {
-            "url": "heroku/nodejs"
-        },
-        {
-            "url": "https://github.com/PrajjwalDatir/heroku-buildpack-imagemagick.git"
-        },
-        {
-            "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-        },
-        {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-        }
-    ]
+    "SESSION": {
+      "description": "A string for the session to be classified and to get access to the server endpoints"
+    },
+    "MODS": {
+      "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
+      "required": false
+    },
+    "CRON": {
+      "description": "Cron string to clear chats in a cycle",
+      "required": false
+    },
+    "MONGO_URI": {
+      "description": "A secret String for Mongodb Connection.(Required)"
+    },
+    "GOOGLE_API_KEY": {
+      "description": "Google API key for Google searches (Not Required)",
+      "required": false
+    },
+    "CHAT_BOT_URL": {
+      "description": "BrainShop API Brain url",
+      "required": false
+    },
+    "TENOR_API_KEY": {
+      "description": "A key used for gif searches",
+      "required": false
+    },
+    "GENIUS_KEY": {
+      "description": "Your access token of genius.com to fetch the lyrics",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/PrajjwalDatir/heroku-buildpack-imagemagick.git"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
 }
