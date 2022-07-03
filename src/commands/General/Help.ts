@@ -22,7 +22,7 @@ export default class Command extends BaseCommand {
   ): Promise<void> => {
     const user = M.sender.jid;
     const shelby =
-      "https://media.tenor.com/videos/571d88ea5d66e7b95cdbc4ef6029dd95/mp4";
+      "https://c.tenor.com/-ZkmeCMtldEAAAPo/thomas-shelby.mp4";
     if (!parsedArgs.joined) {
       const commands = this.handler.commands.keys();
       const categories: { [key: string]: ICommand[] } = {};
